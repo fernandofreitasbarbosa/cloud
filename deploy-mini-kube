@@ -12,8 +12,8 @@ Download and install Minikube from the official website -->> https://minikube.si
 Start a local cluster using the command:
 
 bash
-Copy code
 
+Copy code
 minikube start
 Deploy your first application using Kubernetes YAML files.
 
@@ -42,4 +42,3 @@ kubectl delete deployment nginx
 
 Step 4: Deploy Real Applications
 Once you’re comfortable with the basics, try deploying a more complex application. For example, deploy a web application with a database backend and configure services for external access.
-
