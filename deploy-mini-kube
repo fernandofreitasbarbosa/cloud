@@ -7,11 +7,13 @@ Start by familiarizing yourself with Kubernetes terminology and concepts. Online
 Step 2: Experiment with Minikube
 Minikube is a lightweight Kubernetes implementation that runs on your local machine. It’s perfect for learning and experimenting without the need for a cloud environment. To install Minikube:
 
-Download and install Minikube from the official website.
+Download and install Minikube from the official website -->> https://minikube.sigs.k8s.io/docs/
 
 Start a local cluster using the command:
+
 bash
 Copy code
+
 minikube start
 Deploy your first application using Kubernetes YAML files.
 Step 3: Practice with kubectl
@@ -20,8 +22,8 @@ kubectl is the command-line tool used to interact with Kubernetes. Learn basic c
 Create a deployment:
 
 bash
-Copy code
 
+Copy code
 kubectl create deployment nginx --image=nginx
 
 View pods:
@@ -29,10 +31,10 @@ View pods:
 bash
 
 Copy code
-
 kubectl get pods
 
 Delete resources:
+
 bash
 Copy code
 kubectl delete deployment nginx
