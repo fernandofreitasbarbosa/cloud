@@ -16,6 +16,7 @@ Copy code
 
 minikube start
 Deploy your first application using Kubernetes YAML files.
+
 Step 3: Practice with kubectl
 kubectl is the command-line tool used to interact with Kubernetes. Learn basic commands like:
 
